@@ -15,8 +15,10 @@ Update Tool 1.3.9
 Running Tests with Coverage
 
         test_coverage
-time = 2022-08-12T11:54:09.456+10:00 level = INFO module = admin/test_coverage$test message = "running mocked test case - 01 - expecting 200"
-time = 2022-08-12T11:54:09.661+10:00 level = INFO module = admin/test_coverage$test message = "running mocked test case - 02 - expecting 400"
+time = 2022-08-12T12:28:06.870+10:00 level = INFO module = admin/test_coverage$test message = "running mocked test case - 01 - expecting 200"
+time = 2022-08-12T12:28:07.062+10:00 level = INFO module = admin/test_coverage.apis message = "myClient.proxyRequest has been called"
+time = 2022-08-12T12:28:07.093+10:00 level = INFO module = admin/test_coverage$test message = "running mocked test case - 02 - expecting 400"
+time = 2022-08-12T12:28:07.104+10:00 level = INFO module = admin/test_coverage.apis message = "myClient.proxyRequest has been called"
 
 
                 1 passing
