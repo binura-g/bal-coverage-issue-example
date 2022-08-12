@@ -1,5 +1,7 @@
-Example - Parent/Caller functions are not collected in coverage when a child down the call stack is mocked.
+# Issue
+If an object down the call stack is mocked, it doesn't seem to collect any coverage from the immediate parent function.
 
+Running windows 11 - cmd
 ```
 $ bal version
 
@@ -7,6 +9,8 @@ Ballerina 2201.1.1 (Swan Lake Update 1)
 Language specification 2022R2
 Update Tool 1.3.9
 ```
+
+# To reproduce
 
 1. `bal test --test-report --code-coverage` 
 
