@@ -1,9 +1,17 @@
 Example - Parent/Caller functions are not collected in coverage when a child down the call stack is mocked.
 
+```
+$ bal version
+
+Ballerina 2201.1.1 (Swan Lake Update 1)
+Language specification 2022R2
+Update Tool 1.3.9
+```
+
 1. `bal test --test-report --code-coverage` 
 
 2. Confirm that the function is actually tested by looking at the logs.
-```
+```log
 Running Tests with Coverage
 
         test_coverage
